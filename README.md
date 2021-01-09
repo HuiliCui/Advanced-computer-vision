@@ -19,6 +19,7 @@
   #将路径定位到下载的CVPR-OOH下 将测试的图片可以加入demo文件夹中，
   #demo文件夹含有我自己测试图片
   （8）python demo.py --config cfg_files\demo.yaml
+  #最后生成的结果可用meshlab软件查看
   
 参考相关网址：
  （1）https://github.com/dbolya/yolact 
