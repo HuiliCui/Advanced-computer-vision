@@ -1,0 +1,28 @@
+# experiment name
+note: demo
+
+#project basic
+task: latent
+
+#model basic
+worker: 0
+use_mask: True
+virtual_mask: False
+
+#********dataset*********#
+data_folder: demo
+
+model: latent  #
+batchsize: 10
+mode: eval
+gpu_index: 0
+
+# load trained model
+pretrain: True
+pretrain_dir: trained_model\final_23.pkl
+
+# inpainting model
+fixmodel_dir: trained_model\inpainting.pkl
+
+#visualize
+viz: False
